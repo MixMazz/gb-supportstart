@@ -42,3 +42,19 @@ server.listen(port);
 
 console.debug(`Server listening on port ${port}`)
 ```
+
+man this thing was a mess.
+the problem was you're an idiot and didn't realize the console was only displaying errors, and if you had switched to "all" you would see it was perfectly fine in dispalyed the logs.
+
+
+---
+
+including jQuery
+npm install jquery
+
+which did not work!
+
+instead added this:
+`<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>`
+
+to the index.html
